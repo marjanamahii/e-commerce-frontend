@@ -6,7 +6,7 @@ import AuthReducer from "./Features/Auth/AuthSlice";
 import ProductsApi from "./Features/Products/ProductsApi";
 import ReviewApi from "./Features/Reviews/ReviewsApi";
 import StatsApi from "./Features/Stats/StatsApi";
-import OrderApi from ".//Features/Orders/OrderApi";
+import OrderApi from "./Features/Orders/OrderApi";
 
 export const store = configureStore({
   reducer: {
